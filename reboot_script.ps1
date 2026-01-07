@@ -1,4 +1,4 @@
-Start-Transcript -Path "C:\Scripts\reboot_script.log" -Append
+Start-Transcript -Path "c:\scripts\reboot_script.log" -Append
 # Get uptime and break down into Days, Hours, Minutes
 $LastBoot = (Get-CimInstance Win32_OperatingSystem).LastBootUpTime
 $Uptime = (Get-Date) - $LastBoot
