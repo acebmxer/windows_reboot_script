@@ -6,7 +6,7 @@ $Minutes = $Uptime.Minutes
 $Date = (Get-Date)
 
 # Log the uptime before rebooting
-Write-Output "$Date = Uptime before reboot: $Days days, $Hours hours, $Minutes minutes" | Out-File -Append -FilePath "C:\Scripts\reboot_script.log"
+Write-Output "$Date = Current Uptime: $Days days, $Hours hours, $Minutes minutes" | Out-File -Append -FilePath "C:\Scripts\reboot_script.log"
 
 # Set threshold to 1 day (change this value as needed)
 $ThresholdDays = 5
