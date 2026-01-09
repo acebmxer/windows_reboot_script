@@ -10,7 +10,7 @@ Write-Output "$Date = Current Uptime: $Days days, $Hours hours, $Minutes minutes
 
 # Set threshold to 1 day (change this value as needed)
 $ThresholdDays = 5
-# $ThresholdHours = 5
+#  $ThresholdHours = 5
 # Check if uptime exceeds threshold (using TotalDays for comparison)
 if ($Uptime.TotalDays -gt $ThresholdDays) {
     # Format notification with Days/Hours/Minutes
