@@ -228,7 +228,7 @@ if ($Uptime.TotalDays -gt $ThresholdDays) {
 
         # Acknowledge button
         $ackButton = New-Object System.Windows.Forms.Button
-        $ackButton.Text = '👆 Click here to acknowledge  |  I understand -- proceed with restart'
+        $ackButton.Text = 'I understand -- proceed with restart'
         $ackButton.Font = New-Object System.Drawing.Font('Segoe UI', 11, [System.Drawing.FontStyle]::Bold)
         $ackButton.BackColor = $orange
         $ackButton.ForeColor = $white
